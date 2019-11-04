@@ -216,7 +216,6 @@ Home sections
 
 .section-heading h2 {
   font-size: 38px;
-  text-transform: uppercase;
 }
 
 .section-heading .heading-line {
@@ -535,14 +534,16 @@ Services
 }
 
 /* ================================
-Works
+portfolio
 ================================= */
 .og-grid {
-  list-style: none;
+  /* list-style: none;
   padding: 20px 0;
   margin: 0 auto;
   text-align: center;
-  width: 100%;
+  width: 100%; */
+  max-width: 100%;
+  height: auto;
 }
 
 .og-grid li {
