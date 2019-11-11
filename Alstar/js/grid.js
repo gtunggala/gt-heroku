@@ -314,7 +314,7 @@ var Grid = (function() {
       this.$title = $("<h4></h4>");
       this.$description = $("<p></p>");
       this.$href = $(
-        '<a href="#" target="_blank" class="btn btn-theme">External link</a>'
+        '<a href="#" target="_blank" class="btn btn-theme">Visit site</a>'
       );
       this.$details = $('<div class="og-details"></div>').append(
         this.$title,
